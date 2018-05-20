@@ -24,8 +24,9 @@ class ViewController: UIViewController {
         time.locale = Locale(identifier:"ja_JP")
         let now = Date()
         
-        
+        date.font = UIFont.systemFont(ofSize: 30);
         date.text = time.string(from: now)
+        
     }
     
     override func didReceiveMemoryWarning() {
